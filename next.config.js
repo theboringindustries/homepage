@@ -5,6 +5,9 @@ const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
   swcMinify: false,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     domains: ["cdn.jsdelivr.net"],
     unoptimized: true,
